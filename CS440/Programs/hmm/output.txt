@@ -1,0 +1,16 @@
+-------------Preliminary setup----------------
+HMM read/write works correctly
+-------------Forward Algorithm----------------
+Forward Algorithm passed basic sanity check
+-------------Supervised Learning----------------
+{'#': {'ADV': 0, 'NOUN': 0, 'ADP': 0, 'PRON': 0, 'DET': 0, '.': 0, 'PRT': 0, 'VERB': 0, 'X': 0, 'NUM': 0, 'CONJ': 0, 'ADJ': 0}, 'ADV': {'ADV': 0, 'NOUN': 0, 'ADP': 0, 'PRON': 0, 'DET': 0, '.': 0, 'PRT': 0, 'VERB': 0, 'X': 0, 'NUM': 0, 'CONJ': 0, 'ADJ': 0}, 'NOUN': {'ADV': 0, 'NOUN': 0, 'ADP': 0, 'PRON': 0, 'DET': 0, '.': 0, 'PRT': 0, 'VERB': 0, 'X': 0, 'NUM': 0, 'CONJ': 0, 'ADJ': 0}, 'ADP': {'ADV': 0, 'NOUN': 0, 'ADP': 0, 'PRON': 0, 'DET': 0, '.': 0, 'PRT': 0, 'VERB': 0, 'X': 0, 'NUM': 0, 'CONJ': 0, 'ADJ': 0}, 'PRON': {'ADV': 0, 'NOUN': 0, 'ADP': 0, 'PRON': 0, 'DET': 0, '.': 0, 'PRT': 0, 'VERB': 0, 'X': 0, 'NUM': 0, 'CONJ': 0, 'ADJ': 0}, 'DET': {'ADV': 0, 'NOUN': 0, 'ADP': 0, 'PRON': 0, 'DET': 0, '.': 0, 'PRT': 0, 'VERB': 0, 'X': 0, 'NUM': 0, 'CONJ': 0, 'ADJ': 0}, '.': {'ADV': 0, 'NOUN': 0, 'ADP': 0, 'PRON': 0, 'DET': 0, '.': 0, 'PRT': 0, 'VERB': 0, 'X': 0, 'NUM': 0, 'CONJ': 0, 'ADJ': 0}, 'PRT': {'ADV': 0, 'NOUN': 0, 'ADP': 0, 'PRON': 0, 'DET': 0, '.': 0, 'PRT': 0, 'VERB': 0, 'X': 0, 'NUM': 0, 'CONJ': 0, 'ADJ': 0}, 'VERB': {'ADV': 0, 'NOUN': 0, 'ADP': 0, 'PRON': 0, 'DET': 0, '.': 0, 'PRT': 0, 'VERB': 0, 'X': 0, 'NUM': 0, 'CONJ': 0, 'ADJ': 0}, 'X': {'ADV': 0, 'NOUN': 0, 'ADP': 0, 'PRON': 0, 'DET': 0, '.': 0, 'PRT': 0, 'VERB': 0, 'X': 0, 'NUM': 0, 'CONJ': 0, 'ADJ': 0}, 'NUM': {'ADV': 0, 'NOUN': 0, 'ADP': 0, 'PRON': 0, 'DET': 0, '.': 0, 'PRT': 0, 'VERB': 0, 'X': 0, 'NUM': 0, 'CONJ': 0, 'ADJ': 0}, 'CONJ': {'ADV': 0, 'NOUN': 0, 'ADP': 0, 'PRON': 0, 'DET': 0, '.': 0, 'PRT': 0, 'VERB': 0, 'X': 0, 'NUM': 0, 'CONJ': 0, 'ADJ': 0}, 'ADJ': {'ADV': 0, 'NOUN': 0, 'ADP': 0, 'PRON': 0, 'DET': 0, '.': 0, 'PRT': 0, 'VERB': 0, 'X': 0, 'NUM': 0, 'CONJ': 0, 'ADJ': 0}}
+Emissions differ! DET the 0.5106424205941954 0.5087947569597859
+Error in supervisedlearning
+-------------Viterbi Algorithm----------------
+Viterbi Completed Successfully
+-------------Backwards Algorithm----------------
+Backward Algorithm passed basic sanity check
+------------------EM--------------------
+Error: likelihood should be -105954.94191 but is None
+Transitions differ! # C 0.814506898514 0.664474228524
+Error in EM
