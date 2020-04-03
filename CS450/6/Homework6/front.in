@@ -1,0 +1,3 @@
+﻿Result = A == B;
+AGreater = A > B;
+LongLogic = (A > B) + (B != C)
